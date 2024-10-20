@@ -1,0 +1,32 @@
+{
+  "name": "bookstore-api",
+  "version": "1.0.0",
+  "description": "This project is a simple yet robust API built using Node.js, Express.js, and MongoDB/SQL for managing book listings. It provides full CRUD (Create, Read, Update, Delete) functionality, making it easy to manage a collection of book records. The API is flexible, supporting integration with either MongoDB or SQL databases, and includes comprehensive error handling and security features.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/server/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.13",
+    "@types/mocha": "^10.0.9",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.7.7",
+    "@types/pg": "^8.11.10",
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "supertest": "^7.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
